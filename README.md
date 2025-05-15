@@ -1,44 +1,48 @@
-# Python Minesweeper
+# Python Minefield
 
-A classic Minesweeper game implemented in Python using Pygame.
+Pygame kullanılarak Python ile geliştirilmiş klasik bir Minefield (Mayın Tarlası) oyunu.
 
-## Requirements
+## Uygulama Görselleri
+|               Başlangıç              |              Oyun İçi Görüntü             |          Mayına Basma Fonksiyonu         |
+| :----------------------------------: | :---------------------------------------: |:---------------------------------------: |
+|        ![](image/Start.png)          |           ![](image/inGame.png)           |             ![](image/finish.png)        |
+
+## Gereksinimler
 
 - Python 3.x
 - Pygame
 
-## Installation
+## Kurulum
 
-1. Clone this repository or download the files
-2. Install the required dependencies:
+1. Bu depoyu klonlayın veya dosyaları indirin.
+2. Gerekli bağımlılıkları yüklemek için aşağıdaki komutu çalıştırın:
 ```bash
 pip install -r requirements.txt
 ```
 
-## How to Play
+## Nasıl Oynanır?
 
-1. Run the game:
-```bash
-python minesweeper.py
+1. Oyunu başlatmak için:
+```bash  
+python minefield.py
 ```
 
-2. Game Controls:
-- Left Click: Reveal a cell
-- Right Click: Place/Remove a flag
-- R Key: Reset the game
+2. Oyun Kontrolleri:
+- Sol Tık: Hücreyi aç
+- Sağ Tık: Bayrak koy / kaldır
+- R Tuşu: Oyunu sıfırla
 
-3. Game Rules:
-- The game board is a 10x10 grid with 10 mines
-- Numbers indicate how many mines are adjacent to each cell
-- Use the numbers to deduce the locations of mines
-- Flag cells where you think mines are located
-- Reveal all non-mine cells to win
-- Avoid clicking on mines!
+3. Oyun Kuralları:
+- Oyun alanı 10x10’luk bir ızgaradan oluşur ve 10 adet mayın içerir.
+- Hücrelerdeki sayılar, çevresinde kaç mayın olduğunu gösterir.
+- Bu sayılara göre mayınların yerlerini tahmin edin.
+- Mayın olduğunu düşündüğünüz hücrelere bayrak yerleştirin.
+- Tüm mayınsız hücreleri açarsanız oyunu kazanırsınız.
+- Bir mayına tıklarsanız oyunu kaybedersiniz!
 
-## Features
-
-- Classic Minesweeper gameplay
-- Visual feedback for revealed cells and flags
-- Game over and win conditions
-- Easy reset functionality
-- Clean and intuitive interface 
+## Özellikler
+- Klasik Minefield oynanışı
+- Açılan hücreler ve bayraklar için görsel geri bildirim
+- Kazanma ve kaybetme durumları
+- Kolay oyun sıfırlama özelliği
+- Temiz ve kullanıcı dostu arayüz 
